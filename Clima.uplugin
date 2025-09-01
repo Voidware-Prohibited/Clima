@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Clima",
+	"Description": "Replicated Weather Game State Component",
+	"Category": "Other",
+	"CreatedBy": "VOIDWARE Prohibited, Uriel Ballinas",
+	"CreatedByURL": "https://github.com/Voidware-Prohibited",
+	"DocsURL": "https://github.com/Voidware-Prohibited/Clima",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/Voidware-Prohibited/Clima/discussions",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Clima",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
