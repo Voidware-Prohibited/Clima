@@ -25,7 +25,7 @@ public class Clima : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core",
+				"Core", "Engine", "ProceduralMeshComponent",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
