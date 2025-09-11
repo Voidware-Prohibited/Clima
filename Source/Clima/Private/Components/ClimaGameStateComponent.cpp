@@ -16,7 +16,7 @@
 UClimaGameStateComponent::UClimaGameStateComponent()
 {
 	// Enable replication for this Actor
-	SetIsReplicated(true);
+	SetIsReplicatedByDefault(true);
 }
 
 void UClimaGameStateComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const

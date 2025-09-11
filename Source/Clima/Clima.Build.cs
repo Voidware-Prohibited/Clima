@@ -25,7 +25,7 @@ public class Clima : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core", "Engine", "ProceduralMeshComponent",
+				"Core", "Engine", "ProceduralMeshComponent", "GameplayTags", "GameplayAbilities", "DaySequence"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -35,7 +35,6 @@ public class Clima : ModuleRules
 			new string[]
 			{
 				"CoreUObject",
-				"Engine",
 				"Slate",
 				"SlateCore",
 				// ... add private dependencies that you statically link with here ...	
