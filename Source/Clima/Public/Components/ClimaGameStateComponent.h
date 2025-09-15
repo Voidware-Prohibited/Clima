@@ -15,13 +15,13 @@ struct FAtmosphereDataPoint
 	GENERATED_BODY()
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float Altitude;
+	float Altitude {0.0f};
     
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float AirDensity; // kg/m^3
+	float AirDensity {0.0f}; // kg/m^3
     
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float SpeedOfSound; // m/s
+	float SpeedOfSound {0.0f}; // m/s
 };
 
 /**

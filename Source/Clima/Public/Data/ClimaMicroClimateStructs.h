@@ -21,17 +21,17 @@ struct FCompressedMicroclimateShapeData
 	TArray<int> CompressedIndexData;
 
 	UPROPERTY()
-	FVector DominantWindVector;
+	FVector DominantWindVector {FVector(0.0f,0.0f,0.0f)};
 
 	UPROPERTY()
-	float PreciseGasFactor;
+	float PreciseGasFactor {0.0f};
 
 	// Optional: add parameters for the microclimate effect
 	UPROPERTY()
-	FVector MicroclimateCenter;
+	FVector MicroclimateCenter {FVector(0.0f,0.0f,0.0f)};
 
 	UPROPERTY()
-	float MicroclimateRadius;
+	float MicroclimateRadius {0.0f};
     
 	// Custom serialization function for replicating the struct
 	bool NetSerialize(FArchive& Ar, class UPackageMap* Map, bool& bOutSuccess)
@@ -67,14 +67,14 @@ struct FCompressedMicroclimateData
 	FVector DominantWindVector;
 
 	UPROPERTY()
-	float PreciseGasFactor;
+	float PreciseGasFactor {0.0f};
 
 	// Optional: add parameters for the microclimate effect
 	UPROPERTY()
-	FVector MicroclimateCenter;
+	FVector MicroclimateCenter {FVector(0.0f,0.0f,0.0f)};
 
 	UPROPERTY()
-	float MicroclimateRadius;
+	float MicroclimateRadius {0.0f};
     
 	// Custom serialization function for replicating the struct
 	bool NetSerialize(FArchive& Ar, class UPackageMap* Map, bool& bOutSuccess)
