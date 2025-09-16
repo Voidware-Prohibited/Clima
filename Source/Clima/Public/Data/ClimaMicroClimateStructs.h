@@ -64,7 +64,7 @@ struct FCompressedMicroclimateData
 	FCompressedMicroclimateShapeData MicroclimateShapeData;
 
 	UPROPERTY()
-	FVector DominantWindVector;
+	FVector DominantWindVector {FVector(0.0f, 0.0f, 0.0f)};
 
 	UPROPERTY()
 	float PreciseGasFactor {0.0f};
