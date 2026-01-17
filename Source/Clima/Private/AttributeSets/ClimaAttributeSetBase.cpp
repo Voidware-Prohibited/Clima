@@ -43,7 +43,7 @@ void UClimaAttributeSetBase::CheckMaxReachedForAttribute(const FGameplayAttribut
 	if (Count >= 0)
 	{
 		ASC->SetLooseGameplayTagCount(MaxTag, Count);
-		ASC->SetReplicatedLooseGameplayTagCount(MaxTag, Count);
+		// ASC->SetReplicatedLooseGameplayTagCount(MaxTag, Count);
 	}
 }
 
@@ -69,7 +69,7 @@ void UClimaAttributeSetBase::CheckStatusTagForAttribute(const FGameplayTag& Stat
 	if (Count >= 0)
 	{
 		ASC->SetLooseGameplayTagCount(StatusTag, Count);
-		ASC->SetReplicatedLooseGameplayTagCount(StatusTag, Count);
+		// ASC->SetReplicatedLooseGameplayTagCount(StatusTag, Count);
 	}
 }
 
